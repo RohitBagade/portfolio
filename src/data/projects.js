@@ -16,7 +16,7 @@ export const PROJECTS = [
     description:
       "A backend-heavy scheduler: submit one-time or recurring jobs over a REST API; it runs them, retries failures with exponential backoff, and keeps an immutable execution log. Spring Boot + Quartz, JWT/RBAC, React ops dashboard.",
     stack: ["Java 17", "Spring Boot", "Quartz", "React", "MySQL"],
-    live: null,
+    live: "https://chronos-ui-gold.vercel.app",
     github: "https://github.com/RohitBagade/Chronus",
     featured: true,
   },
