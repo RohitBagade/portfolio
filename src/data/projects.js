@@ -16,7 +16,7 @@ export const PROJECTS = [
     description:
       "A premium storefront for a 3D-printing house — every product is live procedural 3D geometry (no photos, no model files), and the hero object builds itself layer by layer in real time. Live material configurator swaps finishes on the model.",
     stack: ["React", "Three.js", "R3F", "Framer Motion"],
-    live: "https://strata-additive.vercel.app",
+    live: "https://storefront-one-lake.vercel.app",
     github: "https://github.com/RohitBagade/Ecom3DPrintedModels",
     featured: true,
   },
