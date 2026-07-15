@@ -3,7 +3,7 @@ import { SOCIALS } from "../data/projects";
 export default function Contact() {
   return (
     <section id="contact" className="mx-auto max-w-content scroll-mt-20 px-6 py-28">
-      <p className="mb-2 font-mono text-sm text-accent">03 — Contact</p>
+      <p className="mb-2 font-mono text-sm text-accent">04 — Contact</p>
       <h2 className="max-w-3xl font-display text-5xl font-bold leading-[1.05] tracking-tight sm:text-7xl">
         Let's build<br /><span className="text-gradient">something real.</span>
       </h2>

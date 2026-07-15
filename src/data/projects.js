@@ -76,4 +76,27 @@ export const SOCIALS = {
   github: "https://github.com/RohitBagade",
   email: "rohitbagde535@gmail.com",
   agency: "https://lemmedeliver.com",
+  resume: "/Rohit_Bagade_Resume.pdf",
+};
+
+// Real credentials (from résumé) — credibility, not fabrication.
+export const STATS = [
+  { value: "3.5+ yrs", label: "shipping production systems" },
+  { value: "SDE-1 → SDE-2", label: "promoted at Accelya" },
+  { value: "350+", label: "DSA problems solved" },
+  { value: "144", label: "tests on the LLM platform" },
+];
+
+export const EXPERIENCE = {
+  role: "Software Development Engineer (SDE-2)",
+  company: "Accelya Solutions",
+  period: "Sep 2022 — Present",
+  context: "Enterprise platform processing high-volume financial transactions",
+  points: [
+    "Own ~80% of end-to-end development for two core platform modules — design, implementation, testing, delivery.",
+    "Led modernization: migrated enterprise services Java 8 → 17 and JBoss → standalone Tomcat.",
+    "Designed a Spring Boot microservice to mask sensitive PII across Oracle & PostgreSQL for privacy compliance.",
+    "Resolved complex production defects via structured root-cause analysis, shipped with minimal business impact.",
+  ],
+  education: "B.E. Electronics — Ramrao Adik Institute of Technology (D. Y. Patil University), 2022 · GPA 7.66/10",
 };

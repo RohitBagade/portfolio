@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { lazy, Suspense, useEffect, useState } from "react";
+import { STATS, SOCIALS } from "../data/projects";
 
 const Scene3D = lazy(() => import("./Scene3D"));
 
@@ -42,7 +43,7 @@ export default function Hero() {
         <motion.p custom={0} variants={rise} initial="hidden" animate="show"
           className="mb-5 font-mono text-sm text-accent">
           <span className="mr-2 inline-block size-2 animate-pulse rounded-full bg-lime align-middle" />
-          available for work · building at LemmeDeliver
+          SDE-2 @ Accelya Solutions · open to new roles
         </motion.p>
 
         <motion.h1 custom={1} variants={rise} initial="hidden" animate="show"
@@ -65,10 +66,24 @@ export default function Hero() {
           <a href="#work" className="rounded-full bg-ink px-6 py-3 font-semibold text-bg transition hover:bg-accent">
             View my work
           </a>
+          <a href={SOCIALS.resume} target="_blank" rel="noreferrer"
+             className="rounded-full border border-line px-6 py-3 font-semibold text-ink transition hover:border-accent hover:text-accent">
+            Résumé ↗
+          </a>
           <a href="#contact" className="rounded-full border border-line px-6 py-3 font-semibold text-ink transition hover:border-accent hover:text-accent">
             Get in touch
           </a>
         </motion.div>
+
+        <motion.dl custom={5} variants={rise} initial="hidden" animate="show"
+          className="mt-12 flex max-w-2xl flex-wrap gap-x-10 gap-y-4 border-t border-line pt-6">
+          {STATS.map((s) => (
+            <div key={s.label}>
+              <dt className="font-display text-2xl font-bold text-ink">{s.value}</dt>
+              <dd className="mt-0.5 text-xs text-muted">{s.label}</dd>
+            </div>
+          ))}
+        </motion.dl>
       </div>
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-xs uppercase tracking-widest text-muted">
