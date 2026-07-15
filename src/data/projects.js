@@ -11,6 +11,16 @@ export const PROJECTS = [
     featured: true,
   },
   {
+    name: "STRATA",
+    tagline: "A 3D-print studio where products print themselves",
+    description:
+      "A premium storefront for a 3D-printing house — every product is live procedural 3D geometry (no photos, no model files), and the hero object builds itself layer by layer in real time. Live material configurator swaps finishes on the model.",
+    stack: ["React", "Three.js", "R3F", "Framer Motion"],
+    live: "https://storefront-one-lake.vercel.app",
+    github: "https://github.com/RohitBagade/Ecom3DPrintedModels",
+    featured: true,
+  },
+  {
     name: "CHRONUS",
     tagline: "Distributed job scheduler",
     description:
