@@ -86,7 +86,7 @@ export const PROJECTS = [
     description:
       "A live interviewing assistant — set the role, skills and seniority, and it transcribes the conversation (Deepgram) and streams LLM-generated follow-up questions and evaluation to the interviewer in real time. Built at an Accelya hackathon.",
     stack: ["Next.js", "LangChain", "Deepgram", "Socket.io"],
-    live: "https://frontend-ten-tan-84.vercel.app",
+    live: "https://rohit-interview-copilot.vercel.app",
     github: "https://github.com/RohitBagade/interviewer-copilot",
     featured: false,
   },
