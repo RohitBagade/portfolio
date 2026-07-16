@@ -6,7 +6,7 @@ export const PROJECTS = [
     description:
       "A production e-commerce platform I built end to end — storefront, admin panel, and a hardened REST API. Server-side re-pricing, JWT auth with RBAC, and Stripe checkout.",
     stack: ["React", "Node/Express", "MongoDB", "Stripe", "Fly.io"],
-    live: "https://frontend-drab-seven-89.vercel.app",
+    live: "https://rohit-apex.vercel.app",
     github: "https://github.com/RohitBagade/ProteinEcomSite",
     featured: true,
   },
@@ -16,7 +16,7 @@ export const PROJECTS = [
     description:
       "A premium storefront for a 3D-printing house — every product is live procedural 3D geometry (no photos, no model files), and the hero object builds itself layer by layer in real time. Live material configurator swaps finishes on the model.",
     stack: ["React", "Three.js", "R3F", "Framer Motion"],
-    live: "https://storefront-one-lake.vercel.app",
+    live: "https://strata-additive.vercel.app",
     github: "https://github.com/RohitBagade/Ecom3DPrintedModels",
     featured: true,
   },
@@ -26,7 +26,7 @@ export const PROJECTS = [
     description:
       "A backend-heavy scheduler: submit one-time or recurring jobs over a REST API; it runs them, retries failures with exponential backoff, and keeps an immutable execution log. Spring Boot + Quartz, JWT/RBAC, React ops dashboard.",
     stack: ["Java 17", "Spring Boot", "Quartz", "React", "MySQL"],
-    live: "https://chronos-ui-gold.vercel.app",
+    live: "https://rohit-chronos.vercel.app",
     github: "https://github.com/RohitBagade/Chronus",
     featured: true,
   },
@@ -36,7 +36,7 @@ export const PROJECTS = [
     description:
       "Describe a meal by text or voice and get calories + macros back. GPT-4o-mini with JSON mode behind a rate-limited, CORS-locked API; Web Speech mic input on the frontend.",
     stack: ["React", "OpenAI", "Node", "Web Speech"],
-    live: "https://caloriecounter-ai-rohit-bagades-projects.vercel.app",
+    live: "https://rohit-caloriecounter.vercel.app",
     github: "https://github.com/RohitBagade/CalorieCounter.ai",
     featured: true,
   },
@@ -78,6 +78,16 @@ export const PROJECTS = [
     stack: ["Python", "Twilio", "Flask", "Fly.io"],
     live: null,
     github: "https://github.com/RohitBagade/saathi-landing",
+    featured: false,
+  },
+  {
+    name: "Interview Copilot",
+    tagline: "Real-time AI co-pilot for technical interviews",
+    description:
+      "A live interviewing assistant — set the role, skills and seniority, and it transcribes the conversation (Deepgram) and streams LLM-generated follow-up questions and evaluation to the interviewer in real time. Built at an Accelya hackathon.",
+    stack: ["Next.js", "LangChain", "Deepgram", "Socket.io"],
+    live: "https://frontend-ten-tan-84.vercel.app",
+    github: "https://github.com/RohitBagade/interviewer-copilot",
     featured: false,
   },
 ];
